@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="SnowAlexandreStyleSheet.css">
+<meta charset="UTF-8">
+  <meta name="description" content="Meal-Prep and Tips">
+  <meta name="keywords" content="Calories,Prep,Diet,Meal,Meal-Prep,Exercise,Training">
+  <meta name="author" content="Alex Snow">
+<title>DOA : The Department of Athletics</title>
+<script src="js/menu.js"></script>
+</head>
+<body>
+<span style="color:white;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+<div id="Navigation" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+	<a href="SnowAlexandreHomePage.html">Home</a>
+    <a href="about.html">About</a>
+	<a href="services.html">Services</a>
+    <a href="start.html">Get Started Now</a>
+    <a href="jobdata.html">About the Job</a>
+</div>
+</div>
+<h3>Use this form to request a personalized recomendation with diet and exercise plans.</h3>
+<div class="contactform">
+<form method="post" style="width:35%" action="https://mailthis.to/asnow83@gmail.com">
+	<div class="contact">
+		<fieldset>
+			<legend>Describe what your goals are with this:</legend> 
+				<input type="text" name="goals"><br>
+		</fieldset>
+	</div>
+<br>
+	<div>
+		<fieldset>
+			<legend>Sex</legend> 
+				<input type="radio" name="sex" value="male">Male  <input type="radio" name="sex" value="female">Female <input type="radio" name="sex" value="HRT">HRT<br>
+		</fieldset>
+	</div>
+<br>
+	<div class="contact">
+		<fieldset>
+			<legend>Mitigatiing Conditions</legend> 
+				Check all that apply:<br>
+				<input type="checkbox" name="condition" value="Medicationstrue">Medication(s) List:<input type="text" name="medlist"><br>
+				<input type="checkbox" name="condition" value="Injuries">Physical Injurie(s) List:<input type="text" name="injlist"><br>
+				<input type="checkbox" name="condition" value="Other health conditions">Other Health Condition(s) List:<input type="text" name="otherlist"><br>
+		</fieldset>
+	</div>
+<br>
+	<div class="contact">
+		<fieldset>
+			<legend>High Intensity and High Impact Exercises</legend>
+				Can you do both High Intensity and Impact Exercises?<br>
+					<select name="Intensity">
+						<option value="yesboth">Yes - Both</option>
+						<option value="intesnsity">Yes - Intensity</option>
+						<option value="impact">Yes - Impact</option>
+						<option value="no">No</option>
+						<option value="unsure">I'm Unsure</option>
+					</select>
+		</fieldset>
+	</div>
+<br>
+	<div class="contact2">
+		<fieldset>
+			<legend>Measurements</legend>
+				Select Imperial/Metric<br>
+					<select name="measured-in">
+						<option value="inches">Imperial - Inches/pounds</option>
+						<option value="centimeters">Metric - Centimeters/kilos</option>
+					</select><br>
+						Height<br>
+							<input type="text" name="height"><br>
+						Weight<br>
+							<input type="text" name="weight"><br>
+						Waist<br>
+							<input type="text" name="waist"><br>
+						Wrist*<br>
+							<input type="text" name="wrist"><br>
+						Hips*<br>
+							<input type="text" name="hips"><br>
+						Forearm*<br>
+							<input type="text" name="forearm"><br>
+						*female requirements only
+		</fieldset>
+	</div>
+<br>
+<fieldset>
+<legend>Goal Focus</legend> 
+Is there a particular focus? (Ctrl+Left Click to select more than one)<br>
+<select name="focus" multiple>
+   <option value="diet">More on diet</option>
+   <option value="exercise">More on exercise</option>
+   <option value="no">Corrective Exercise</option>
+   <option value="no">No, balanced</option>
+</select>
+</fieldset><br>
+<fieldset>
+<legend>Additional Info:</legend> 
+Describe any current exercises, diets, or allergies<br>not provided for above<br>
+<textarea name="addinfo" rows="12" cols="40">
+Enter your comments here...
+</textarea>
+</fieldset><br>
+<fieldset>
+E-mail: 
+  <input type="text" name="email"><br>
+</fieldset><br>
+<fieldset>
+ <legend>Submit Your Request:</legend> 
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</fieldset>
+</form>
+</div>
+<br><br><br>
+</body>
+</html>
